@@ -3,8 +3,8 @@ To-Do is a simple project that provides you an opportunity to create tasks and m
 
 This project was created as a school project using HTML, CSS, JS.
 
-Devs:
-Vitalii Andrushko - Junior Game Developer (Unity & Unreal Engine) [Github](https:/github.com/ichopon1) <br />
+Devs: <br />
+Vitalii Andrushko - Junior Game Developer (Unity & Unreal Engine) [Github](https://github.com/ichopon1) <br />
 Jaroslav Kibelbek
 
 ## How auth system works:
