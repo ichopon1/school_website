@@ -1,0 +1,205 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9fafb;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    min-height: 40px;
+    max-height: 40px;
+}
+
+header .logo a {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+
+header nav ul li a:hover {
+    background-color: white;
+    color: #4CAF50;
+}
+
+main {
+    flex: 1;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.welcome h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.welcome p {
+    font-size: 18px;
+    color: #555;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+input {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.auth-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.auth-container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.auth-container input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.auth-container button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.auth-container button:hover {
+    background-color: #45a049;
+}
+
+.auth-container #toggleForm {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.auth-container #toggleForm:hover {
+    color: #4CAF50;
+}
+
+.auth-container p {
+    font-size: 14px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.about-container h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
