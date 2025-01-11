@@ -203,3 +203,48 @@ footer {
     line-height: 1.5;
     color: #555;
 }
+
+
+.todo-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.todo-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.todo-container #tasks {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.todo-container .task {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+
+.todo-container .task button {
+    border: none;
+    background: #f44336;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.todo-container .task button:hover {
+    background: #d32f2f;
+}
+

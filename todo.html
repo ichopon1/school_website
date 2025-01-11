@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-Do | About Us</title>
+    <title>To-Do</title>
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
@@ -14,27 +14,27 @@
         <nav>
             <ul>
                 <li><a href="about.html">About Us</a></li>
-                <li><a href="auth.html">Sign up</a></li>
+                <li><a href="#" id="logout">Logout</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <div class="about-container">
-            <h1>About To-Do </h1>
-            <p>To-Do - simple and comfort task creator.</p>
-            <p>Website was created using HTML, CSS and JS for school project. Planned to use PHP and MySQL but idea was denied.</p>
+        <div class="todo-container">
+            <input type="text" id="taskInput" placeholder="New task">
+            <button id="addTask">Add task</button>
         </div>
-
-        <div class="about-container">
-            <h1>About us</h1>
-            <p>Vitalii Andrushko</p>
-            <p>Jaroslav Kibelbek</p>
+        <div class="todo-container">
+            <h1>Your tasks:</h1>
+            <div id="tasks">
+            </div>
         </div>
     </main>
 
     <footer>
         <p>&copy; 2025 To-Do.</p>
     </footer>
+
+    <script src="scripts/todo.js"></script>
 </body>
 </html>
