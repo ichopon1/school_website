@@ -19,7 +19,7 @@ To delete task we're just removing task from array.
 ![](https://github.com/ichopon1/school_website/blob/main/2.gif)
 
 ## Others:
-Website has feature to logout from your account.
+Website has feature to logout from your account. <br />
 It's impossible to get on tasks page without signing in in your account.
 
 To sum up, website uses simple `localStorage` to save accounts and their tasks, but it's only temp storage.
