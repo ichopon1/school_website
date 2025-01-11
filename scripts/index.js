@@ -11,29 +11,27 @@ function SwitchAuth(e)
 
     if (registerForm.style.display === "none") 
     {
-        const username = document.getElementById("registerUsername");
-        const password = document.getElementById("registerPassword");
-
         registerForm.style.display = "block";
         loginForm.style.display = "none";
         authTitle.innerText = "Sign up";
         document.getElementById("toggleForm").textContent = "Already have an account?";
 
-        username.textContent = "";
-        password.textContent = "";
+        const username = document.getElementById("registerUsername");
+        const password = document.getElementById("registerPassword");
+        username.value = "";
+        password.value = "";
     } 
     else 
     {
-        const username = document.getElementById("loginUsername");
-        const password = document.getElementById("loginPassword");
-
         registerForm.style.display = "none";
         loginForm.style.display = "block";
         authTitle.innerText = "Sign in";
         document.getElementById("toggleForm").textContent = "Don't have an account?";
 
-        username.textContent = "";
-        password.textContent = "";
+        const username = document.getElementById("loginUsername");
+        const password = document.getElementById("loginPassword");
+        username.value = "";
+        password.value = "";
     }
 }
 
